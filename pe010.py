@@ -4,7 +4,6 @@ def SieveOfEratosthenes(n):
     prime = [True for i in range(n + 1)]
     p = 2
     while p * p <= n:
-        print(p)
         if prime[p]:
 
             for i in range(p * p, n + 1, p):

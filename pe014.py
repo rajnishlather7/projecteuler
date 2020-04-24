@@ -19,4 +19,4 @@ def get_length(num):
 
 
 z = get_length(1000000)
-max(z, key=z.get)
+print(max(z, key=z.get))
